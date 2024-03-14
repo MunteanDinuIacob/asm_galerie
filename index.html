@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Album de poze</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f3f3f3;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+
+      .container {
+        max-width: 800px;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-top: 40px;
+      }
+
+      .gallery img {
+        width: 100%;
+        border-radius: 5px;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Album de poze</h1>
+      <div class="gallery">
+        <img src="images/poza1.jpg" alt="Poza 1" />
+        <img src="images/poza2.jpg" alt="Poza 2" />
+        <img src="images/poza3.jpg" alt="Poza 3" />
+        <img src="images/poza4.jpg" alt="Poza 4" />
+        <img src="images/poza5.jpg" alt="Poza 5" />
+        <img src="images/poza6.jpg" alt="Poza 6" />
+        <img src="images/poza7.jpg" alt="Poza 7" />
+        <img src="images/poza8.jpg" alt="Poza 8" />
+        <img src="images/poza9.jpg" alt="Poza 9" />
+        <img src="images/poza10.jpg" alt="Poza 10" />
+      </div>
+    </div>
+  </body>
+</html>
